@@ -1,0 +1,2 @@
+docker cp ./pipeline.py spark-master-minio-iceberg:opt/bitnami/spark
+docker cp ./data.csv spark-master-minio-iceberg:opt/bitnami/spark/data
